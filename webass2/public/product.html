@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - </title>
+
+    <Link rel = "stylesheet" href="css/home.css">
+    <Link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+
+    <nav class = "navbar"></nav>
+
+    <section class = "product-details">
+        <div class = "image-slider">
+            <div class = "product-images">
+                <img src = "images/miscHero.jpg" class= "active" alt=""> 
+                <img src = "images/consoleHero.jpg"  alt=""> 
+                <img src = "images/GameHeader.jpg" alt=""> 
+                <img src = "images/laptopHero.jpg" alt=""> 
+
+            </div>
+        </div>
+
+    <!-- this is where we need to query the sql to write product details-->
+    <div class = "details">
+        <h2 class = "product-brand">gamer brand</h2>
+        <p class = "product-short-desc">gamer details</p>
+        <span class = "product-price"> current cost</span>
+        
+        <p class = "location-selection">Select Shipping Location</p>
+
+        <!-- query the shipping locations to select from, right now im gonna just say two places-->
+        <input type = "radio" name = "location" value = "New Orleans, LA" hidden id = "loc-1">
+        <label for ="loc-1" class = "location-radio-btn">New Orleans, LA</label>
+        <input type = "radio" name = "location" value = "Jackson, MS" hidden id = "loc-2">
+        <label for ="loc-2" class = "location-radio-btn">Jackson, MS</label>
+    
+        <button class ="btn cart-btn">add to cart</button>
+
+    </div>        
+
+    </section>
+
+    <section class = "details-des">
+        <h2 class = "heading">description</h2>
+        <p class = "des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere at voluptatibus inventore tempore, tenetur rerum provident beatae? Obcaecati optio eveniet, est hic pariatur, illum culpa reiciendis doloribus laboriosam alias minus. </p>
+    </section>
+
+      <!-- cards container-->
+    <section class = "product">
+        <h2 class = "product-category">Best Sellers</h2>
+        <button class = "pre-btn"><img src = "images/arrow.jpg" alt = ""></button>
+         <button class = "nxt-btn"><img src = "images/arrow.jpg" alt = ""></button>
+
+        <div class = "product-container">
+            <div class = "product-card">
+                <div class = "product-image">
+                    <span class = "discount-tag">20% discount</span>
+                    <img src = "images/18.jpg" class = "product-thumb" alt = "">
+                    <button class= "card-btn"> add to cart</button>
+                </div>
+                <div class = "product-info">
+                    <h2 class = "product-brand">brand</h2>
+                    <p class = "product-short-des"> a short line about the product</p>
+                    <span class = "price">$200</span> <span class = "actual-price">$240</span>
+                </div>
+            </div>     
+            <div class = "product-card">
+                <div class = "product-image">
+                    <span class = "discount-tag">20% discount</span>
+                    <img src = "images/19.jpg" class = "product-thumb" alt = "">
+                    <button class= "card-btn"> add to cart</button>
+                </div>
+                <div class = "product-info">
+                    <h2 class = "product-brand">brand</h2>
+                    <p class = "product-short-des"> a short line about the product</p>
+                    <span class = "price">$200</span> <span class = "actual-price">$240</span>
+                </div>
+            </div>     
+            <div class = "product-card">
+                <div class = "product-image">
+                    <span class = "discount-tag">20% discount</span>
+                    <img src = "images/17.jpg" class = "product-thumb" alt = "">
+                    <button class= "card-btn"> add to cart</button>
+                </div>
+                <div class = "product-info">
+                    <h2 class = "product-brand">brand</h2>
+                    <p class = "product-short-des"> a short line about the product</p>
+                    <span class = "price">$200</span> <span class = "actual-price">$240</span>
+                </div>
+            </div>    
+            <div class = "product-card">
+                <div class = "product-image">
+                    <span class = "discount-tag">20% discount</span>
+                    <img src = "images/16.jpg" class = "product-thumb" alt = "">
+                    <button class= "card-btn"> add to cart</button>
+                </div>
+                <div class = "product-info">
+                    <h2 class = "product-brand">brand</h2>
+                    <p class = "product-short-des"> a short line about the product</p>
+                    <span class = "price">$200</span> <span class = "actual-price">$240</span>
+                </div>
+            </div>     
+            <div class = "product-card">
+                <div class = "product-image">
+                    <span class = "discount-tag">20% discount</span>
+                    <img src = "images/15.jpg" class = "product-thumb" alt = "">
+                    <button class= "card-btn"> add to cart</button>
+                </div>
+                <div class = "product-info">
+                    <h2 class = "product-brand">brand</h2>
+                    <p class = "product-short-des"> a short line about the product</p>
+                    <span class = "price">$200</span> <span class = "actual-price">$240</span>
+                </div>
+            </div>     
+        </div>  
+    </section>
+
+    <footer></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+
+
+
+</body>
+
+</html>
