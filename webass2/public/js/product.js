@@ -24,3 +24,9 @@ sizeBtn.forEach((item, i) => {
         checkedBtn=i;
     })
 })
+
+let productID = null;
+if(location.pathname != '/products'){
+    productID = decodeURIComponent(location.pathname.split('/').pop());
+    console.log(productID);
+}

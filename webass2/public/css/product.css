@@ -9,7 +9,6 @@
     width: 500px;
     height: 500px;
     position: relative;
-    background-image: url('..\img/product\images/miscHero.jpg');
     background-size: cover;
 }
 
