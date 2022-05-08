@@ -1,0 +1,9 @@
+Riley --> Interface Development (Front End) HTML, CSS, Java
+
+
+Chandler --> ERD Sketch
+
+
+Nick --> 	SQL Script (Create / Populate / Query)
+	Relation Schema 
+	ERD Cardinalities
